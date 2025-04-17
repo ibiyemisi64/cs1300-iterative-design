@@ -33,7 +33,59 @@
     </div>
 
     <div class="container">
-      <h2>Part 4: Hi-Fi Prototype</h2>
+      <h2 class="py-3">Hi-Fi Prototype</h2>
+      
+      <div class="container align-center py-5" style="display:flex; justify-content:center;">
+        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/proto/kmLtbNPC9EyZ8eiumlfhby/Partiful-3-Hi-Fi?node-id=2001-7255&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2001%3A7255&show-proto-sidebar=1&embed-host=share" allowfullscreen></iframe>
+      </div>
+
+      <h3> User Flows</h3>
+      <p>The final prototype demonstrates two primary user flows: one tailored for planners to create and manage event lists, and another designed for guests to select and claim items to bring. Select which flow to interact with using the "Flows" control panel on the left.</p>
+
+      <div class="row d-felx d-flex">
+        <div class="col-md-6 py-3">
+          <h3>Planner</h3>
+          <ul>
+            <li>Create Custom Lists: Planners can easily create customizable lists for any event, allowing guests to sign up for specific items.</li>
+            <li>Enhanced Templates: The prototype extends Partiful's template feature, supporting item sign-ups tailored to various event types.</li>
+            <li>Manage Guest Contributions: Planners have the ability to edit the item list and commitments. This includes limiting the amount of users that can sign up for each item, and highlighting must-have items.</li>
+          </ul>
+        </div>
+        <div class="col-md-6 p-3">
+          <h3>Guest</h3>
+          <ul>
+            <li>Claim Items: Guests can claim responsibility for bringing specific items to an event.</li> 
+            <li>Add Custom Items: Guests can add new, custom items to the list, ideal for potluck events.</li> 
+            <li>Manage Personal Contributions: Guests have the ability to sign up, edit their item commitments, and view overall contributions clearly.</li> 
+            <li>Implemented a flexible, horizontal feature enabling planners to create adaptable lists for any event type.</li> 
+          </ul>
+          </div>
+        </div>  
+      
+      <h3 class="py-3">Iterative Design Decisions</h3>
+      <p>Feedback from mentors and company founders shaped the final hi-fi prototype. Positive responses highlighted strong features, while constructive suggestions helped refine usability, clarity, and flow.
+      </p>
+      <h4>Positive feedback</h4>
+
+      <p>❤️ "Contributions" is a good entry point for list creation.<br>
+         ❤️ Social layer of claimed items in activity feed is good.<br>
+         ❤️ Badges to gameify guest controbutions are great, and can extend current profile badge feature in Partiful.<br>
+         ❤️ Refer a friend feature is nice, something that the comapny would like to continue doing.<br>
+         ❤️ Sign-up feature looks more flexible.<br>
+         ❤️ Button for refferal system looks cute and clickable.<br>
+      </p>
+      
+      <h4> Room for Improvement</h4>
+        <p>💭 What would a list look like if it started from a template?<br>
+        🔧 Include only one control for a planner to designate "Must-Have" items, two is confusing.<br>
+        🔧 Default text for notes is too suggestive, consider just using "Notes".<br>
+        🔧 When a planner edits items, including "claimed by" and "assign guests" mixes guest and planner actions making the UX confusing.<br>
+        🔧 To minimize number of screens, consider making Assign Guests a pop-up screen - not full.<br>
+        🔧 Must-have desgination shouldn't be clickable for guests, only planners can define this.<br>
+        🔧 Transparent boxes look clickable for guests, consider a different state representation.<br>
+        🔧 Spots claimed entry point in guest RSVP should be a seperate screen to ensure users do not overlook sign-up.<br>
+        🔧 Assign Items icon looks like a clipboard, this can be a toggle.<br>
+        🔧 Put practical uses for list templates at the top (car sign up, potluck, housing…) 
     </div>
 
     <div class="container">
